@@ -195,9 +195,3 @@ const menuList = defaultMenus;
 #### 5. 安装新依赖时报错？
 使用了monorepo项目安装新依赖时需要在后面添加`-w`或`--workspace`，否则会报错，比如：`pnpm i mobx -w`。
 
-## 🧡 捐赠
-如果您觉得这个项目对您有帮助，您可以帮作者买一杯咖啡表示支持!
-
-| 微信 | 支付宝 |
-| --- | --- |
-| <img src="https://github.com/southliu/github-static/blob/main/pay/wechat.jpg" width="250" alt="wechat"> | <img src="https://github.com/southliu/github-static/blob/main/pay/alipay.jpg" width="250" alt="alipay">  |
