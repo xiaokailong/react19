@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: createVitePlugins(),
+    base: '/react19/',
     resolve: {
       alias: {
         '@': '/src',
