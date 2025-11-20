@@ -12,8 +12,8 @@ export default defineConfig(({ mode }) => {
   const { VITE_SERVER_PORT, VITE_PROXY } = viteEnv;
 
   return {
+    base: process.env.DEPLOY_TARGET === 'github' ? '/react19/' : '/',
     plugins: createVitePlugins(),
-    base: '/react19/',
     resolve: {
       alias: {
         '@': '/src',
